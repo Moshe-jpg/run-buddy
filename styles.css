@@ -64,3 +64,59 @@ body {
   footer a {
     color: #024e76;
   }
+
+  section {
+    padding: 60px;
+  }
+
+  .hero {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+  }
+
+  .hero-form {
+    color: #024e76;
+    background-color: #fce138;
+    border: 3px solid;
+    float: right;
+    font-weight: 500;
+    padding: 3%;
+  }
+
+  .fill-hero-form {
+    margin-bottom: 4%;
+  }
+
+  label {
+    margin-bottom: 1.5%;
+  }
+
+  .form-input {
+    margin-bottom: 4%;
+  }
+
+  #name, #email, #phone {
+    height: 30px;
+    width: 90%;
+    text-align: center;
+  }
+
+  h3 {
+    font-weight: 900;
+    margin-bottom: 4%;
+  }
+
+  .get-running-button {
+    color: #fce138;
+  background-color: #024e76;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  }
+
+  .get-running-button:hover {
+    color: black;
+    background-color: #ffffff;
+  }

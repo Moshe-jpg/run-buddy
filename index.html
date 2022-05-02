@@ -30,35 +30,31 @@
       </nav>
     </header>
 
-    <section>
-      <div>
-        <h3>Get Started Today</h3>
-        <p>
+    <section class="hero">
+      <div class="hero-form">
+        <h3>Get Started Today!</h3>
+        <p class="fill-hero-form">
           Fill out this form and one of our trainers will schedule a consult
         </p>
         <form action="">
-          <label for="name">Enter Full Name:</label>
-          <input type="text" placeholder="Your Name" name="name" id="name"/>
-          <label for="email">Enter Email Address:</label>
-          <input type="text" placeholder="Your Email" name="email" id="email"/>
-          <label for="phone">Enter Phone Number:</label>
-          <input type="tel" placeholder="Your Phone #" name="phone" id="phone"/>
+          <label for="name">Enter Full Name:</label><br>
+          <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/><br>
+          <label for="email">Enter Email Address:</label><br>
+          <input type="text" placeholder="Your Email" name="email" id="email" class="form-input"/><br>
+          <label for="phone">Enter Phone Number:</label><br>
+          <input type="tel" placeholder="Your Phone #" name="phone" id="phone" class="form-input"/><br>
           <p>
             Have you worked out with a trainer before?
             <input type="radio" name="trainer-confirm" id="trainer-yes" />
             <label for="trainer-yes">Yes</label>
             <input type="radio" name="trainer-confirm" id="trainer-no" />
             <label for="trainer-no">No</label>
-          </p>
+          </p><br>
           <p>
             Are You 18 Years or Older?
-            <input type="radio" name="18-years-old" id="age-yes">
-            <label for="age-yes">Yes</label>
-            <input type="radio" name="18-years-old" id="age-no">
-            <label for="age-no">No</label>
-            <button type="submit">Get Running</button>
-
-          </p>
+            <input type="checkbox" name="18-years-old" id="age-yes">
+          </p><br>
+          <button type="submit" class="get-running-button">Get Running!</button>
         </form>
       </div>
     </section>
