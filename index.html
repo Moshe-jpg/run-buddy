@@ -1,52 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Stylesheet -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <title>Run Buddy</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- header -->
     <header>
-        <h1><a href="">Run Buddy</a></h1>
-        <nav>
+      <h1><a href="">Run Buddy</a></h1>
+      <nav>
         <ul>
-            <li>
-                <a href="#what-we-do">What We Do</a>
-            </li>
-            <li>
-                <a href="#what-you-do">What You Do</a>
-            </li>
-            <li>
-                <a href="#your-trainers">Your Trainers</a>
-            </li>
-            <li>
-                <a href="#reach-out">Reach Out</a>
-            </li>
+          <li>
+            <a href="#what-we-do">What We Do</a>
+          </li>
+          <li>
+            <a href="#what-you-do">What You Do</a>
+          </li>
+          <li>
+            <a href="#your-trainers">Your Trainers</a>
+          </li>
+          <li>
+            <a href="#reach-out">Reach Out</a>
+          </li>
         </ul>
-    </nav>
+      </nav>
     </header>
-    
+
+    <section>
+      <div>
+        <h3>Get Started Today</h3>
+        <p>
+          Fill out this form and one of our trainers will schedule a consult
+        </p>
+        <form action="">
+          <label for="name">Enter Full Name:</label>
+          <input type="text" placeholder="Your Name" name="name" id="name"/>
+          <label for="email">Enter Email Address:</label>
+          <input type="text" placeholder="Your Email" name="email" id="email"/>
+          <label for="phone">Enter Phone Number:</label>
+          <input type="tel" placeholder="Your Phone #" name="phone" id="phone"/>
+          <p>
+            Have you worked out with a trainer before?
+            <input type="radio" name="trainer-confirm" id="trainer-yes" />
+            <label for="trainer-yes">Yes</label>
+            <input type="radio" name="trainer-confirm" id="trainer-no" />
+            <label for="trainer-no">No</label>
+          </p>
+          <p>
+            Are You 18 Years or Older?
+            <input type="radio" name="18-years-old" id="age-yes">
+            <label for="age-yes">Yes</label>
+            <input type="radio" name="18-years-old" id="age-no">
+            <label for="age-no">No</label>
+            <button type="submit">Get Running</button>
+
+          </p>
+        </form>
+      </div>
+    </section>
+
     <!-- section 1 -->
     <section>
-        <h2 id="what-we-do">What We Do</h2>
+      <h2 id="what-we-do">What We Do</h2>
     </section>
     <!-- section 2 -->
     <section>
-        <h2 id="what-you-do">What You Do</h2>
+      <h2 id="what-you-do">What You Do</h2>
     </section>
     <!-- section 3 -->
     <section>
-        <h2 id="your-trainers">Your Trainers</h2>
+      <h2 id="your-trainers">Your Trainers</h2>
     </section>
+    <h2 id="reach-out">Reach Out</h2>
     <!-- footer -->
     <footer>
-        <h2 id="reach-out">Reach Out</h2>
-        <h2>Made with ❤ by Run Buddy</h2>
+      <h2>Made with ❤ by Run Buddy</h2>
+      <div>
+        <a href="#">Read Our Privacy Policy</a><br />
+        &copy; 2022 Run Buddy, Inc.
+      </div>
     </footer>
-       
-</body>
+  </body>
 </html>
