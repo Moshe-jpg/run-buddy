@@ -69,12 +69,7 @@ body {
     padding: 60px;
   }
 
-  .section-header {
-    color: #044d74;
-    font-size: 45px;
-    text-align: center;
-  }
-
+  
   .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -127,6 +122,26 @@ body {
     background-color: #ffffff;
   }
 
+.intro {
+    text-align: center;
+  }
 
+  .intro h2 {
+    font-size: 55px;
+    color: #024e76;
+    display: inline-block;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    border-bottom: 3px solid;
+    border-color: #fce138;
+  }
+
+  .intro p {
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+  }
 
   
