@@ -393,6 +393,10 @@ section {
   margin: 15px;
 }
 
+.contact-info-fix {
+  text-align: right;
+}
+
 .contact-info iframe {
   height: 400px;
 }
@@ -553,6 +557,10 @@ section {
   .step-text {
     flex: 100%;
   }
+  
+  .contact-info-fix {
+    text-align: center;
+  }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -579,6 +587,23 @@ section {
 
   .contact-info > * {
     flex: 0 100%;
+  }
+  
+  .contact-info-fix {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+  
+  .contact-info-fix iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
   }
 
   .contact-form {
