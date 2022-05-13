@@ -1,3 +1,9 @@
+:root {
+    --primary-color: #fce138;
+    --secondary-color: #024e76;
+    --tertiary-color: #39a6b2;
+  }
+
 .hero {
     background-position: bottom;
     height: auto;
@@ -6,9 +12,9 @@
   }
 
   section h2 {
-      color: #fce138;
+      color: var(--primary-color);
       display: inline-block;
-      border-bottom: 4px solid #fce138;
+      border-bottom: 4px solid var(--primary-color);
       font-weight: normal;
       font-size: 42px;
       font-style: italic;
@@ -21,7 +27,7 @@
   }
 
   article {
-      color: #024e76;
+      color: var(--secondary-color);
   }
 
   article h3 {
