@@ -4,6 +4,9 @@
     --tertiary-color: #39a6b2;
   }
 
+header {
+    background-position: 50%;
+
 .hero {
     background-position: bottom;
     height: auto;
