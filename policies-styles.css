@@ -28,6 +28,13 @@ header {
   .secondary-content {
       width: 80%;
       margin: auto;
+      font-family: Helvetica, Arial, sans-serif;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+      color: var(--secondary-color);
+      width: 80%;
+      margin: auto;
   }
 
   article {
@@ -50,6 +57,6 @@ header {
   }
 
   article li {
-      color: #39a6b2;
+      color: var(--tertiary-color);
       margin: 10px 0;
   }
