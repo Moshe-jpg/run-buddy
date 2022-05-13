@@ -27,7 +27,7 @@ header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-image: url("../images/hero-bg.jpg");
+  background-image: url("images/hero-bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -393,7 +393,7 @@ section {
   margin: 15px;
 }
 
-.contact-iframe iframe {
+.contact-info iframe {
   height: 400px;
 }
 
@@ -521,12 +521,8 @@ section {
     flex: 0 70%;
   }
 
-  .contact-iframe iframe {
+  .contact-info iframe {
     flex: 1 100%;
-  }
-
-  .contact-iframe {
-    text-align: right;
   }
 }
 
@@ -557,10 +553,6 @@ section {
   .step-text {
     flex: 100%;
   }
-
-  .contact-iframe {
-    text-align: center;
-  }
 }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
@@ -587,23 +579,6 @@ section {
 
   .contact-info > * {
     flex: 0 100%;
-  }
-
-  .contact-iframe {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    padding-top: 56.25%;
-  }
-
-  .contact-iframe iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
   }
 
   .contact-form {
